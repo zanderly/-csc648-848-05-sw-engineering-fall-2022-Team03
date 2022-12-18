@@ -1,0 +1,94 @@
+.center {
+display: flex;
+flexFlow: row nowrap;
+justifyContent: center;
+alignItems: center;
+}
+
+#feedbackbox{
+width: 1070px;
+height: 300px;
+}
+
+div.TOS {
+  border: 50px;
+  radius: 50px;
+  background-color: lightgray;
+  width: 1070px;
+  height: 350px;
+  overflow: scroll;
+}
+
+#register{
+ position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.productname{
+    padding: 3px;
+    font-size: 25px;
+    text-align: center;
+    flex-flow: row;
+    float:bottom;
+    float:left;
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 250px;
+    height: 25px;
+    overflow: scroll;
+    font-weight: bold;
+}
+
+img.info{
+  display:flex;
+  float:left;
+  margin-top: 2%;
+  margin-left: 20%;
+  background-color: green;
+  border: 5px solid;
+  border-radius: 10px;
+  padding: 1px;
+  height:300px;
+  width: 400px;
+}
+
+
+
+div.productdescription{
+    text-align: center;
+    display:flex;
+    flex-flow: row;
+    float:bottom;
+    margin-top: 10%;
+    margin-left: 57%;
+    border: 5px solid;
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+    overflow: scroll;
+}
+
+div.vendorinfo{
+    padding: 3px;
+    text-align: center;
+    flex-flow: row;
+    float:bottom;
+    margin-left: 55%;
+    margin-top: 1%;
+    width: 250px;
+    height: 57px;
+    overflow: scroll;
+}
+
+div.productreviews{
+    text-align: center;
+    float:bottom;
+    margin-left: 57%;
+    border: 5px solid;
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    overflow: scroll;
+}

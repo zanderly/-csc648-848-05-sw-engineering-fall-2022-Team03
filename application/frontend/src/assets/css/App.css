@@ -1,0 +1,297 @@
+body{
+  background-color: white;
+  min-height: 82.6vh;
+  position: relative;
+  bottom: 0;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  
+}
+
+/* Header css (will move to .css file) */
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: -8px;
+}
+
+.nav-belt {
+  display: flex;
+  align-items: center;
+  background-color: rgb(95, 145, 80);
+  /* overflow: hidden; */
+  color: white;
+  white-space: nowrap;
+  height: 75px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 10px 0px 10px 0px;
+}
+
+.searchbar{
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+a{
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+a span{
+  font-size:14px;
+  margin-left: -10px;
+}
+
+p{
+  font-size: 12px;
+  line-height: 15;
+  margin-top: 40px;
+}
+
+.tool{
+  padding:60px 10px 40px 10px;
+}
+.tool2{
+  padding:60px 10px 10px 10px;
+}
+
+.tools > button {
+  border-radius: 5px 5px;
+  position: relative;
+}
+
+.tools > button:hover {
+  border: 1px solid green;
+  border-radius: 5px 5px;
+  color: green;
+}
+
+.profile-icon {
+  position: relative;
+  top: -10px;
+}
+
+.tool-profile:hover .sub-menu-wrap {
+    max-height: 400px;
+    z-index: 2;
+}
+
+.sub-menu-wrap {
+  position: absolute;
+  top: 100%;
+  right: 30px;
+  width: 320px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+
+
+.sub-menu {
+  background: white;
+  padding: 20px;
+  margin: 5px;
+}
+
+.dropdown-profile {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  
+}
+
+/* .dropdown-profile-icon {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+} */
+
+/* settings button dropdown css*/
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+/* .cart:hover {
+  border: 1px solid green;
+  border-radius: 5px 5px;
+  color: green;
+  border: none;
+  
+}
+
+.cart {
+  border-radius: 5px 5px;
+  padding:10px 10px;
+} */
+
+.navbar input{
+  width: 100%;
+  padding: 12.5px;
+  font-size: 15x;
+  border: none;
+  outline: none;
+  color: black;
+}
+
+.navbar button{
+  padding: 10px 10px;
+  color: black;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.all {
+  background: rgb(236, 236, 236);
+  border-radius: 5px 0 0 5px;
+  height: 40px;
+}
+
+.searchbar .search{
+  height: 40px;
+  /* margin: -20px; */
+  background: white;
+  border-radius: 0 5px 5px 0;
+}
+
+.search1 {
+  height: 40px;
+}
+
+.search:hover {
+  background: rgb(226, 226, 226);
+}
+
+.logo-img{
+  width: 150px;
+  position: absolute;
+  clip: rect(0px 150px 125px 0px);
+  top: -30px;
+
+  
+}
+
+.nav-tools{
+  display: inline-flex;
+}
+
+
+.nav-left {
+  flex: 1;
+}
+
+.nav-center {
+  flex: 2;
+}
+
+.nav-right {
+  flex: 0;
+  padding: 0px 10px 20px 10px;
+}
+
+nav {
+  width: 100%;
+}
+
+/* Footer css (will move to another .css file) */
+.footer-bar {
+  background-color: rgb(189, 253, 176);
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  bottom: -2.1px;
+  margin: -8px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-col {
+  width: 33%;
+  padding: 0 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li a:hover {
+  color: green;
+  padding-left: 10px;
+  border: 0;
+}
+
+
+#register{
+ border: 4px;
+ radius: 3;
+ display: flex;
+ flexFlow: row nowrap;
+ justifyContent: center;
+ alignItems: center;
+}
+
+.often {
+  display: inline-flex;
+  align-items: center;
+}
+
+.often input{
+  max-width: 40px;
+}
+.often select{
+  height: 30px;
+}
+
+.forVendorSignup {
+  display: inline-flex;
+  left: 85px;
+}
+
+input.checkVendorBox {
+  max-width: 12px;
+}

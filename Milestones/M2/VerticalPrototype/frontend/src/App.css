@@ -1,0 +1,114 @@
+body{
+  background-color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 15px 4px 0px;
+}
+
+.nav-belt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(95, 145, 80);
+  overflow: hidden;
+  color: white;
+  white-space: nowrap;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.nav-logo{
+  text-align: center;
+  margin: 1px;
+  margin-bottom: -5px;
+  padding: 6px 8px 0 0;
+}
+
+.dflex{
+  display: flex;
+  align-items: center;
+}
+
+a{
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+a:hover{
+  border: 1px solid white;
+  margin: -1px;
+  border-radius: 3px;
+}
+
+a span{
+  font-size:14px;
+  margin-left: -10px;
+}
+
+p{
+  font-size: 12px;
+  line-height: 15;
+}
+
+.button{
+  font-size: 12px;
+  line-height: 15;
+}
+
+.item{
+  padding:10px 10px;
+}
+
+.item:hover{
+  border: 1px solid white;
+  border-radius: 2px;
+  margin: -1px;
+}
+
+.item i{
+  padding: 0 5px;
+}
+
+.navbar input{
+  width: 700px;
+  padding: 12.5px;
+  font-size: 15x;
+  border: none;
+  outline: none;
+  color: black;
+}
+
+.navbar button{
+  padding: 10px 10px;
+  color: black;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  cursor: pointer;
+}
+
+.navbar .all {
+  background: white;
+  border-radius: 5px 0 0 5px;
+}
+
+.navbar .search{
+  padding: 7.5px 15px;
+  margin: -5px;
+  background: white;
+
+}
+
+.logo-img{
+  width: 100px;
+}
+
+.nav-tools{
+  display: inline-flex;
+}

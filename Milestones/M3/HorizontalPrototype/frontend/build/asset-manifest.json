@@ -1,0 +1,37 @@
+{
+  "files": {
+<<<<<<< HEAD
+    "main.css": "/static/css/main.aabab3c5.css",
+    "main.js": "/static/js/main.d89ad7d9.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/tvfm-logo.jpg": "/static/media/tvfm-logo.52333cf6027a6706b364.jpg",
+    "index.html": "/index.html",
+    "main.aabab3c5.css.map": "/static/css/main.aabab3c5.css.map",
+    "main.d89ad7d9.js.map": "/static/js/main.d89ad7d9.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aabab3c5.css",
+    "static/js/main.d89ad7d9.js"
+=======
+    "main.css": "/static/css/main.8f12c8e9.css",
+    "main.js": "/static/js/main.c94c2cdf.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/bird.jpg": "/static/media/bird.be15284f9241b033dd57.jpg",
+    "static/media/asdf.jpg": "/static/media/asdf.a0e7aeb3a53d4a002a00.jpg",
+    "static/media/SethComputer.jpg": "/static/media/SethComputer.4aa7d8386ae8e3c00d17.jpg",
+    "static/media/IMG_1.jpg": "/static/media/IMG_1.b0c921eaa909d0e0a777.jpg",
+    "static/media/ninjadog.JPG": "/static/media/ninjadog.96d57617171050277cdd.JPG",
+    "static/media/tvfm-logo.jpg": "/static/media/tvfm-logo.52333cf6027a6706b364.jpg",
+    "static/media/pig.jpg": "/static/media/pig.76d79a1350f730808028.jpg",
+    "index.html": "/index.html",
+    "main.8f12c8e9.css.map": "/static/css/main.8f12c8e9.css.map",
+    "main.c94c2cdf.js.map": "/static/js/main.c94c2cdf.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f12c8e9.css",
+    "static/js/main.c94c2cdf.js"
+>>>>>>> HeaderUpdate
+  ]
+}

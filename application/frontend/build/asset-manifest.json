@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dc77aca7.css",
+    "main.js": "/static/js/main.a76a32e3.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/tvfm-logo.jpg": "/static/media/tvfm-logo.52333cf6027a6706b364.jpg",
+    "index.html": "/index.html",
+    "main.dc77aca7.css.map": "/static/css/main.dc77aca7.css.map",
+    "main.a76a32e3.js.map": "/static/js/main.a76a32e3.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc77aca7.css",
+    "static/js/main.a76a32e3.js"
+  ]
+}

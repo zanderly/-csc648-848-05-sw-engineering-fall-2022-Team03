@@ -1,0 +1,12 @@
+*.xml
+*.json
+*.pack
+*.lst
+*.md
+frontend/node_modules*
+*.class
+*.iml
+*.jar
+*.properties
+*.txt
+*.original

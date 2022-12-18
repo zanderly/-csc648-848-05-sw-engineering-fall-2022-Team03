@@ -1,0 +1,125 @@
+body{
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.signup-box{
+    padding-top: 5px;
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    border-style: solid;
+    border-width:3px;
+    border-radius: 10px;
+    background-color: beige;
+
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    justifyContent: center;
+    text-align: center;
+    width: 300px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type=button]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.bttp{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.bttp a{
+    color: black;
+}
+
+#ph1, #ph2, #ph3{
+    width: 9%;
+    display: inline-block;
+}
+
+input [type="checkbox"]{
+    display: inline-block;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.center {
+text-align: center;
+display: flex;
+justifyContent: center;
+alignItems: center;
+}
+
+#feedbackbox{
+display: block;
+margin-left: -50%;
+margin-right: auto;
+width: 570px;
+height: 300px;
+border-style: solid;
+border-width:3px;
+border-radius: 10px;
+}
+
+div.TOS {
+  border: 50px;
+  radius: 50px;
+  background-color: lightgray;
+  width: 1070px;
+  height: 350px;
+  overflow: scroll;
+}
+
+.register{
+     border: solid 4px;
+     borderRadius: 15px;
+     display: block;
+     text-align:center;
+
+
+    }
+
+
+
+
